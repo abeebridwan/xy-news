@@ -17,13 +17,13 @@ newsr.get('/',async(req,res)=>{
 })
 
 newsr.post('/search',async(req,res)=>{
-    const search=req.body.search
+    const search = req.body.search
     // console.log(req.body.search)
 
     try {
         var url = process.env.NewsApi_URL_2;
 
-        const news_get =await axios.get(url)
+        const news_get = await axios.get(url)
         res.render('news',{articles:news_get.data.articles})
     } catch (error) {
         if(error.response){
