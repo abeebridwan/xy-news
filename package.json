@@ -1,6 +1,6 @@
 {
   "name": "xynews",
-  "version": "1",
+  "version": "1.0.0",
   "description": "World News with BBC and CNN",
   "main": "app.js",
   "author": "Abeeb Ridwan Olumide",
@@ -9,6 +9,9 @@
     "start": "node app.js",
     "dev": "nodemon app.js",
     "build": "NODE_ENV=production node app.js" 
+  },
+  "engines": {
+    "node": "12.14.0"
   },
   "dependencies": {
     "axios": "^0.21.1",
