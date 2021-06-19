@@ -13,9 +13,6 @@ app uses ejs as the view template, backed with express, news Api fetched with ax
   - news API
   - bootstrap 4
 
-## Deployment
-  Take a look at the live version https://olumide025.github.io/xy-news/
-
 ## Author
   Abeeb Ridwan Olumide
 
